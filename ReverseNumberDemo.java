@@ -3,10 +3,10 @@ class ReverseNumberDemo
 {
    public static void main(String args[])
    {
-      int num=123456789;
-	//Scanner scan = new Scanner(System.in);
+    //  int num=123456789;
+	Scanner scan = new Scanner(System.in);
 	System.out.println("Enter any number:");
-	//int num = scan.nextInt();
+	int num = scan.nextInt();
     	
       System.out.println("Given specified number is: "+num);
       int reversenum =0;
